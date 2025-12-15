@@ -1,5 +1,11 @@
 {
-  "appName": "ConflictLab",
-  "version": "1.0.0",
-  "environment": "staging"
+  "app": {
+    "appName": "ConflictLab",
+    "version": "1.0.0",
+    "environment": "staging"
+  },
+  "settings": {
+    "darkMode": true,
+    "language": "pt-BR"
+  }
 }
