@@ -1,5 +1,9 @@
 {
   "appName": "ConflictLab",
   "version": "1.0.0",
-  "environment": "staging"
+  "environment": "staging",
+  "payments": {
+    "provider": "stripe",
+    "currency": "BRL"
+  }
 }
