@@ -9,5 +9,9 @@
   "auth": {
     "jwt": true,
     "tokenExpiration": 3600
+  },
+  "analytics": {
+    "enabled": true,
+    "provider": "GA"
   }
 }
