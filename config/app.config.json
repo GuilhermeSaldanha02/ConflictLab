@@ -10,8 +10,12 @@
     "provider": "stripe",
     "currency": "BRL"
   },
-  "notifications": {
+    "notifications": {
     "email": true,
     "sms": false
+  },
+  "analytics": {
+    "enabled": true,
+    "provider": "GA"
   }
 }
