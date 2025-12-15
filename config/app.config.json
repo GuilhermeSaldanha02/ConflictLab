@@ -5,9 +5,10 @@
   "payments": {
     "provider": "stripe",
     "currency": "BRL",
-  "environment": "staging",
-  "auth": {
-    "jwt": true,
-    "tokenExpiration": 3600
+    "environment": "staging",
+    "auth": {
+      "jwt": true,
+      "tokenExpiration": 3600
+    }
   }
 }
