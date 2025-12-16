@@ -52,7 +52,7 @@ project/
 
 ### 📄 src/core/app.js (Base)
 
-```javascript
+```js
 function startApp() {
     console.log("App iniciado");
 }
@@ -103,6 +103,7 @@ Cada branch deve editar:
 
 ### 🔐 feat/auth
 
+json
 ```json
 {
   "auth": {
@@ -111,8 +112,9 @@ Cada branch deve editar:
   }
 }
 ```
+app.js
+```js
 
-```app.js
 function startApp() {
     console.log("Auth carregado");
 }
@@ -122,6 +124,7 @@ function startApp() {
 
 ### 💳 feat/payments
 
+json
 ```json
 {
   "payments": {
@@ -130,8 +133,8 @@ function startApp() {
   }
 }
 ```
-
-```app.js
+app.js
+```js
 function startApp() {
     console.log("Payments inicializados");
 }
@@ -141,6 +144,7 @@ function startApp() {
 
 ### 🔔 feat/notifications
 
+json
 ```json
 {
   "notifications": {
@@ -149,8 +153,8 @@ function startApp() {
   }
 }
 ```
-
-```app.js
+app.js
+```js
 function startApp() {
     console.log("Notificações ativas");
 }
@@ -160,6 +164,7 @@ function startApp() {
 
 ### 📊 feat/analytics
 
+json
 ```json
 {
   "analytics": {
@@ -168,8 +173,8 @@ function startApp() {
   }
 }
 ```
-
-```app.js
+app.js
+```js
 function startApp() {
     console.log("Analytics ativo");
 }
@@ -179,7 +184,8 @@ function startApp() {
 
 ### ⚙️ feat/settings
 
-```json
+json
+```Json
 {
   "settings": {
     "darkMode": true,
@@ -187,8 +193,8 @@ function startApp() {
   }
 }
 ```
-
-```app.js
+app.js
+```js
 function startApp() {
     console.log("Settings carregados");
 }
@@ -199,19 +205,21 @@ function startApp() {
 ## 🔥 RODADA 3: Merge Caótico em Staging
 
 Crie a branch `staging`:
-
+bash
 ```bash
 git checkout -b staging
 ```
 
 Agora faça o merge **sem resolver nada automaticamente**:
 
+bash
 ```bash
 git merge feat/auth
 git merge feat/payments
 git merge feat/notifications
 git merge feat/analytics
 git merge feat/settings
+
 ```
 
 💥 **Conflitos esperados em:**
@@ -227,6 +235,7 @@ git merge feat/settings
 
 O arquivo final deve conter **todas as configurações consolidadas**:
 
+json
 ```json
 {
   "appName": "ConflictLab",
