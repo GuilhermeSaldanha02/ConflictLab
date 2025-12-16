@@ -1,9 +1,16 @@
 {
   "appName": "ConflictLab",
   "version": "1.0.0",
-  "environment": "staging"
+  "environment": "staging",
+  "payments": {
+    "provider": "stripe",
+    "currency": "BRL"
   },
-  {
+  "auth": {
+    "jwt": true,
+    "tokenExpiration": 3600,
+    "environment": "staging"
+  },
   "notifications": {
     "email": true,
     "sms": false
