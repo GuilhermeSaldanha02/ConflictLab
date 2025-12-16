@@ -14,5 +14,9 @@
   "notifications": {
     "email": true,
     "sms": false
+  },
+  "analytics": {
+    "enabled": true,
+    "provider": "GA"
   }
 }
