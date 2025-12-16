@@ -7,5 +7,22 @@
   "settings": {
     "darkMode": true,
     "language": "pt-BR"
+  },
+  "payments": {
+    "provider": "stripe",
+    "currency": "BRL"
+  },
+  "auth": {
+    "jwt": true,
+    "tokenExpiration": 3600,
+    "environment": "staging"
+  },
+  "notifications": {
+    "email": true,
+    "sms": false
+  },
+  "analytics": {
+    "enabled": true,
+    "provider": "GA"
   }
 }
